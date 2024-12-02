@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #1966a8, #07579c);
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .logo img {
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .header .logo h1 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+  .header .welcome {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .welcome p {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .header .logout,
+  .header .dashboard-btn {
+    background-color: #fff;
+    color: #2668C5;
+    border: none;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header .dashboard-btn {
+    margin-right: 10px;
+  }
+  
+  /* Main Content */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-section {
+    width: 60%;
+  }
+  
+  .left-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .left-section select {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .right-section {
+    width: 35%;
+    text-align: center;
+  }
+  
+  .right-section .book-icon {
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .right-section p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Buttons Section */
+  .buttons-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 20px;
+  }
+  
+  .buttons-section .save-btn,
+  .buttons-section .continue-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .buttons-section .save-btn {
+    background-color: #6A93D4;
+    color: #fff;
+  }
+  
+  .buttons-section .continue-btn {
+    background-color: #2668C5;
+    color: #fff;
+  }
+  
+  /* Footer*/
+  .footer {
+    background: linear-gradient(to right, #2668C5, #6A93D4);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  

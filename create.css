@@ -1,0 +1,111 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(to right, #1966a8, #07579c);
+    color: white;
+    padding: 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.user-info {
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logout-btn {
+    background-color: white;
+    color: #1966a8;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.logout-btn:hover {
+    background-color: #d9e9ff;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.welcome-section h2 {
+    font-size: 1.8rem;
+    color: #1966a8;
+    margin-bottom: 10px;
+}
+
+.steps-section h3 {
+    margin: 15px 0 5px;
+    color: #1966a8;
+    font-size: 1.2rem;
+}
+
+.steps-section ul {
+    margin: 10px 0 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.create-application-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.create-application-btn:hover {
+    background-color: #3578c2;
+}
+
+.footer {
+    background: linear-gradient(to right, #2668C5, #6A93D4);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form - Personal Details</title>
+     <link rel="icon" type="image/x-icon" href="img/ECOT Logo.png">
+    <link rel="stylesheet" href="Personal.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/ECOT Logo.png" alt="ECOT Logo">
+            <span>Eswatini College Of Technology</span>
+        </div>
+        <nav class="tabs">
+            <button class="tab active" id="applicant-tab">Applicant Information</button>
+            <button class="tab" id="education-tab">Education Background</button>
+            <button class="tab" id="documents-tab">Document Upload</button>
+        </nav>
+        <div class="user-info">
+            <span>Welcome Bandile</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <div class="progress-bar">
+                <span>Step 1 - Application Form</span>
+                <div class="progress">
+                    <div class="progress-completed" style="width: 10%;"></div>
+                </div>
+                <span>10% Complete</span>
+            </div>
+
+            <h1>Information About Yourself</h1>
+            
+            <!-- Centered Sub-tabs -->
+            <nav class="sub-tabs">
+                <button class="sub-tab active" id="personal-details-tab">Personal Details</button>
+                <button class="sub-tab" id="address-tab">Address</button>
+                <button class="sub-tab" id="next-of-kin-tab">Next Of Kin</button>
+            </nav>
+
+            <!-- Two-column Form Layout -->
+            <form class="application-form">
+                <!-- Personal Details Section -->
+                <div id="personal-details-content" class="sub-tab-content active">
+                    <div class="form-columns">
+                        <!-- Left Column -->
+                        <div class="form-column">
+                            <div class="form-group">
+                                <label for="title">Title</label>
+                                <select id="title">
+                                    <option>Select</option>
+                                    <option>Mr</option>
+                                    <option>Ms</option>
+                                    <option>Dr</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="middle-name">Middle Name</label>
+                                <input type="text" id="middle-name" placeholder="Middle Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="maiden-name">Maiden Surname</label>
+                                <input type="text" id="maiden-name" placeholder="(Where Applicable)">
+                            </div>
+                            <div class="form-group">
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" id="dob">
+                            </div>
+                           <!--<div class="form-group gender-options">
+                                <label>Gender:</label>
+                                <label><input type="radio" name="gender" value="male"> Male</label>
+                                <label><input type="radio" name="gender" value="female"> Female</label>
+                            </div>  -->
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="form-column">
+                            <div class="form-group">
+                                <label for="citizenship">Citizenship</label>
+                                <input type="text" id="citizenship" placeholder="e.g., Eswatini">
+                            </div>
+                            <div class="form-group">
+                                <label for="marital-status">Marital Status</label>
+                                <select id="marital-status">
+                                    <option>Married</option>
+                                    <option>Widowed</option>
+                                    <option>Single</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="id-number">National Identity Number</label>
+                                <input type="text" id="id-number" placeholder="e.g., 1234567890123">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" id="phone-number" placeholder="+268 76223456">
+                            </div>
+                            <div class="form-group">
+                                <label for="sponsor">Sponsor</label>
+                                <select id="sponsor">
+                                    <option>Select</option>
+                                    <option>Self</option>
+                                    <option>Government</option>
+                                    <option>Private</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="passport-photo">Passport Photo</label>
+                                <input type="file" id="passport-photo" accept="image/*">
+                                <small>Less than 2MB</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-buttons">
+                    <button type="button" class="save-button">Save</button>
+                    <button type="submit" class="continue-button">Continue</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>All rights reserved to ECOT @2024</p>
+    </footer>
+
+    <script src="peronal Info.js"></script>
+</body>
+</html>
