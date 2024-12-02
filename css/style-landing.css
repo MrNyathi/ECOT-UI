@@ -1,0 +1,292 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", serif; */
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
+}
+
+/* Body Styling */
+body {
+  background: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+.header {
+  background: #fff;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100px;
+}
+
+.logo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.content img {
+  /* max-height: 100dvh; */
+  width: 100%;
+}
+
+.header img {
+  width: 100px;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.auth-buttons a {
+  border: solid #007bff 2px;
+  color: #007bff;
+  padding: 5px 40px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.auth-buttons a:hover {
+  background-color: #007bff;
+  color: white;
+  transition: 0.4s;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  position: relative;
+}
+
+.header nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #007bff; /* Blue color for the underline */
+  left: 50%; /* Start at the center */
+  bottom: -2px; /* Position underline below the text */
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.header nav a:hover::after {
+  width: 100%; /* Expand to full width */
+}
+
+.header .buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* .header .buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+} */
+
+/* .header .buttons .signup {
+  background: #007bff;
+  color: #fff;
+}
+
+.header .buttons .login {
+  background: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.header .buttons button:hover {
+  opacity: 0.9;
+} */
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+/* 
+.hero button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+} */
+
+/* .hero button:hover {
+  background: #0056b3;
+} */
+
+/* Hero Image */
+/* .hero img {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+  animation: slideIn 1.5s ease-in-out;
+} */
+
+/* Footer Section */
+.footer {
+  background: #fff;
+  width: 100%;
+  padding: 20px 10%;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer div {
+  margin: 10px;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  line-height: 30px;
+  color: #777;
+}
+
+.footer form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-indent: 5px;
+}
+
+.footer form button {
+  border: 0;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: small;
+  width: 85%;
+  padding: 5px 0;
+}
+
+.left {
+  display: flex;
+  gap: 2rem;
+}
+
+.left ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.right img {
+  width: 18px;
+}
+
+/* .footer a {
+  text-decoration: none;
+  color: #007bff;
+} */
+
+/* .footer a:hover {
+  text-decoration: underline;
+} */
+
+/* Animations 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive Design 
+@media (max-width: 768px) {
+  .header nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+ */
