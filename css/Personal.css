@@ -1,237 +1,243 @@
+* {
+  /* duplicated on many styles */
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+}
+
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(to right, #1966a8, #07579c);
-    color: white;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #1966a8, #07579c);
+  color: white;
+  padding: 10px 20px;
 }
 
 header .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 header .logo img {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 header .tabs {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 header .tab {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-bottom: 3px solid transparent;
-    transition: border-color 0.3s;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s;
 }
 
 header .tab.active {
-    font-weight: bold;
-    border-bottom: 3px solid #f1f1f1;
+  font-weight: bold;
+  border-bottom: 3px solid #f1f1f1;
 }
 
 header .user-info {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* Progress Bar */
 .progress-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 0;
-    font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 14px;
 }
 
 .progress-bar .progress {
-    flex: 1;
-    height: 8px;
-    background: #e0e0e0;
-    margin: 0 10px;
-    border-radius: 5px;
-    overflow: hidden;
+  flex: 1;
+  height: 8px;
+  background: #e0e0e0;
+  margin: 0 10px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .progress-bar .progress-completed {
-    height: 100%;
-    background: #5b9bd5;
-    transition: width 0.3s;
+  height: 100%;
+  background: #5b9bd5;
+  transition: width 0.3s;
 }
 
 /* Form Section */
 .form-section {
-    background: white;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Sub-tabs */
 .sub-tabs {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 .sub-tab {
-    background: none;
-    border: none;
-    color: #007bff;
-    font-size: 16px;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-bottom: 3px solid transparent;
-    transition: border-color 0.3s;
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s;
 }
 
 .sub-tab.active {
-    font-weight: bold;
-    border-bottom: 3px solid #007bff;
+  font-weight: bold;
+  border-bottom: 3px solid #007bff;
 }
 
 /* Form Layout */
 .application-form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .form-columns {
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
 }
 
 .form-column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: px;
+  display: flex;
+  flex-direction: column;
+  gap: px;
 }
 
 label {
-    font-weight: bold;
-    font-size: 14px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 input,
 select {
-    padding: 8px 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
 }
 
 input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
+  display: none;
 }
 
 input[type="file"] {
-    padding: 5px;
+  padding: 5px;
 }
 
 small {
-    font-size: 12px;
-    color: #666;
+  font-size: 12px;
+  color: #666;
 }
 
 .gender-options {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .gender-options label {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 /* Buttons */
 .form-buttons {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 button {
-    background: #5b9bd5;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+  background: #5b9bd5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    background: #4176a9;
+  background: #4176a9;
 }
 
 .save-button {
-    background: #5b9bd5;
+  background: #5b9bd5;
 }
 
 .save-button:hover {
-    background: #5b9bd5;
+  background: #5b9bd5;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #5b9bd5;
-    color: white;
-    font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background: #5b9bd5;
+  color: white;
+  font-size: 14px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .form-columns {
-        flex-direction: column;
-    }
-
-    .form-buttons {
-        flex-direction: column;
-    }
-
-    button {
-        width: 100%;
-    }
-}
- /* Footer*/
- .footer {
-    background: linear-gradient(to right, #2668C5, #6A93D4);
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 12px;
-    flex-shrink: 0;
+  .form-columns {
+    flex-direction: column;
   }
+
+  .form-buttons {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+/* Footer*/
+.footer {
+  background: linear-gradient(to right, #2668c5, #6a93d4);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+  flex-shrink: 0;
+}
