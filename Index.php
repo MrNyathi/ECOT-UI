@@ -6,41 +6,12 @@
     <title>ECOT - Online Application</title>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="javacsript" href="landingscript.js" />
 
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Header Section -->
-    <header class="header">
-      <div class="wrapper">
-        <div class="logo">
-          <img src="img/Ecot logo.png" alt="ECOT Logo" />
-          <h3>
-            Eswatini College <br />
-            Of Technology
-          </h3>
-        </div>
-        <nav class="navbar">
-          <a href="landingPage.html">Home</a>
-          <a href="deleted/home.html">About</a>
-          <a href="Create Application.html">Admission</a>
-          <a href="#">Academics</a>
-          <a href="#">Administration</a>
-        </nav>
+    <!-- include header here -->
+    <?php 
+      require_once('templates/header.php');
+    ?>
 
-        <div class="auth-buttons">
-          <a href="signup.html" class="sign-up">Sign Up</a>
-          <a href="signup.html" class="sign-in">Sign In</a>
-        </div>
-      </div>
-    </header>
 
     <!-- Hero Section -->
     <section class="hero">

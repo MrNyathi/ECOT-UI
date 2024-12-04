@@ -4,16 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Application System</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="img/ECOT Logo.png" />
     <link rel="stylesheet" href="css/signup.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-  </head>
-  <body>
-    <header class="header">
+
+    <?php
+    require_once("templates/header.php");
+    ?>
+
+    <!-- <header class="header">
       <div class="logo">
         <img src="img/ECOT2.png" alt="ECOT Logo" />
         <h1>
@@ -27,7 +24,9 @@
         <button type="submit">Login</button>
         <a href="#" class="forgot-password">Forgot Password?</a>
       </form>
-    </header>
+    </header> -->
+
+    
 
     <main class="main-container">
       <section class="signup-form">
@@ -49,7 +48,10 @@
             <input type="password" placeholder="Password" required />
             <input type="password" placeholder="Confirm Password" required />
           </div>
-          <button type="submit" class="btn">Sign Up</button>
+          <div class="form-row-action">
+            <p>Already have an account? <a href="signin.php">Click here</a> </p>
+            <button type="submit" class="btn">Sign Up</button>
+          </div>
         </form>
       </section>
       <aside class="logo-section">
