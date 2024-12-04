@@ -114,11 +114,6 @@ main {
   justify-items: center;
 }
 
-footer {
-  text-align: center;
-  background-color: #2668c5;
-}
-
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap;
