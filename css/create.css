@@ -1,10 +1,5 @@
-* {
-  /* duplicated on many styles */
-  font-family: "Nunito", serif;
-  font-optical-sizing: auto;
-}
 /* Global styles */
-body {
+/* body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
@@ -57,14 +52,14 @@ header {
 
 .logout-btn:hover {
   background-color: #d9e9ff;
-}
+} */
 
 main {
   flex: 1;
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: white;
+  /* background-color: white; */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }

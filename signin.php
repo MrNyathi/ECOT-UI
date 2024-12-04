@@ -27,13 +27,13 @@
       <section class="signup-form">
         <h2>Sign in to your account</h2>
 
-        <form class="login-form">
+        <form class="login-form" action="includes/redirect.php" method="post">
         <input type="email" placeholder="EMAIL" required />
         <input type="password" placeholder="PASSWORD" required />
         <div class="form-row-signin">
         <p>Don't have an account? <a href="signup.php">Click here</a> </p>
           <div class="signin-action">
-          <button type="submit">Login</button>
+          <button type="submit" name="signin">Login</button>
           <a href="#" class="forgot-password">Forgot Password?</a>
           </div>
         </div>

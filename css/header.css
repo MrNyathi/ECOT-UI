@@ -104,3 +104,32 @@ body {
   display: flex;
   gap: 10px;
 }
+
+/* user avatar */
+
+.user-avatar {
+  display: flex;
+  flex-flow: row;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-avatar img {
+  width: 25px;
+  height: auto;
+}
+
+.logo {
+  color: black;
+}
+
+.user-avatar button {
+  border: solid red 2px;
+  color: red;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}

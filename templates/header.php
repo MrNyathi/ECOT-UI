@@ -22,20 +22,34 @@
           <h3>
             Eswatini College <br />
             Of Technology
-          </h3>
+          </h3> 
         </div>
+
+        <?php if(!isset($applicationMode)) {?>
         <nav class="navbar">
           <a href="index.php">Home</a>
-          <a href="#">About</a>
+          <a href="About Yourself.html">About</a>
           <a href="signup.php">Admission</a>
           <!-- FIXME: make page for the additions page  (contain briefing for the admission process) -->
-          <a href="#">Academics</a>
-          <a href="#">Administration</a>
+          <a href="Create Application.html">Academics</a>
+          <a href="Select a Program.html">Administration</a>
         </nav>
 
         <div class="auth-buttons">
           <!-- <a href="signup.html" class="sign-up">Sign Up</a> -->
           <a href="signup.php" class="sign-in">Apply Now!</a>
         </div>
+        <?php } else { ?>
+          <!-- TODO: Make the user avatar -->
+
+          <div class="user-avatar">
+            <p>Welcome <em><b>Bandile </b></em></p>
+            <img src="Img/user.png" alt="user">
+            <form action="includes/redirect.php" method="post">
+              <button name="logout">Logout</button>
+            </form>
+          </div>
+
+        <?php } ?>
       </div>
     </header>  

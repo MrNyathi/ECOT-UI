@@ -31,7 +31,7 @@
     <main class="main-container">
       <section class="signup-form">
         <h2>Create an account</h2>
-        <form>
+        <form  action="includes/redirect.php" method="post">
           <div class="form-row">
             <input type="text" placeholder="First Name" required />
             <input type="text" placeholder="Last Name" required />
@@ -50,7 +50,7 @@
           </div>
           <div class="form-row-action">
             <p>Already have an account? <a href="signin.php">Click here</a> </p>
-            <button type="submit" class="btn">Sign Up</button>
+            <button type="submit" class="btn" name="signup">Sign Up</button>
           </div>
         </form>
       </section>

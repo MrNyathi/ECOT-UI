@@ -1,30 +1,16 @@
+<?php
+$applicationMode = false;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Application - ECOT</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="img/ECOT Logo.png">
     <link rel="stylesheet" href="css/create.css">
     
-</head>
-<body>
-    <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <img src="img/ECOT Logo.png" alt="Eswatini College of Technology Logo">
-                <h1>Eswatini College <br> Of Technology</h1>
-            </div>
-            <div class="user-info">
-                <p>Welcome Bandile</p>
-                <button class="logout-btn">LOGOUT</button>
-            </div>
-        </div>
-    </header>
+    <?php require_once("templates/header.php") ?>
     
     <main class="main-content">
         <section class="welcome-section">
