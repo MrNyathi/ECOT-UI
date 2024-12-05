@@ -100,6 +100,10 @@ main {
   background-color: #3578c2;
 }
 
+.buttons-section a {
+  text-decoration: none;
+}
+
 .footer {
   background: linear-gradient(to right, #2668c5, #6a93d4);
   color: #fff;

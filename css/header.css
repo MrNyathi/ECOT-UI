@@ -126,8 +126,9 @@ body {
 }
 
 .user-avatar button {
-  border: solid red 2px;
-  color: red;
+  background: #007bff;
+  color: white;
+  border: #007bff;
   padding: 5px 10px;
   border-radius: 5px;
   text-align: center;

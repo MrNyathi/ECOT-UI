@@ -8,7 +8,7 @@ $applicationMode = false;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Application - ECOT</title>
-    <link rel="stylesheet" href="css/create.css">
+    <link rel="stylesheet" href="css/dashboard.css">
     
     <?php require_once("templates/header.php") ?>
     
@@ -47,8 +47,8 @@ $applicationMode = false;
         
     <!-- Buttons Section -->
     <div class="buttons-section">
-        <a href="Select a Program.html">
-            <button class="create-application-btn">CREATE APPLICATION</button></a>
+        <a href="selectProgram.php">
+            <button class="create-application-btn">CREATE APPLICATION</button>
         </a>
     </div>
     </main>

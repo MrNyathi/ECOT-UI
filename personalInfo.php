@@ -1,3 +1,7 @@
+<?php
+$applicationMode = false;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,26 +14,12 @@
     />
     <link rel="icon" type="image/x-icon" href="img/ECOT Logo.png" />
     <link rel="stylesheet" href="css/Personal.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo">
-        <img src="img/ECOT Logo.png" alt="ECOT Logo" />
-        <span>Eswatini College Of Technology</span>
-      </div>
-      <nav class="tabs">
-        <button class="tab active" id="applicant-tab">
-          Applicant Information
-        </button>
-        <button class="tab" id="education-tab">Education Background</button>
-        <button class="tab" id="documents-tab">Document Upload</button>
-      </nav>
-      <div class="user-info">
-        <span>Welcome Bandile</span>
-      </div>
-    </header>
+  
+    <?php
+      require_once("templates/header.php");
+    ?>
 
-    <main>
+    <main style="width: 90%;">
       <section class="form-section">
         <div class="progress-bar">
           <span>Step 1 - Application Form</span>
