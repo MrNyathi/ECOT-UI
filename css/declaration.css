@@ -1,0 +1,200 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(to right, #4f8df5, #87b8ff);
+    padding: 20px;
+    border-bottom: 4px solid #0044cc;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo {
+    width: 70px;
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.welcome {
+    font-size: 14px;
+    background: white;
+    color: #0044cc;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* Progress Section */
+.progress {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.progress p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background: #e0e0e0;
+    border-radius: 15px;
+    height: 8px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: #0044cc;
+    height: 100%;
+    width: 70%; /* Match completion percentage */
+    border-radius: 15px;
+}
+
+/* Main Section */
+main {
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    color: #0044cc;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid #0044cc;
+    padding-bottom: 5px;
+}
+
+.declaration p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.pdf-viewer {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.terms {
+    margin-top: 20px;
+}
+
+.terms-text {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.terms-text strong {
+    color: #333;
+}
+
+.agree-section {
+    margin-top: 10px;
+}
+
+.agree-section label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/* Submit Button */
+.submit-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#submitBtn {
+    background: #0044cc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    transition: background 0.3s ease;
+}
+
+#submitBtn:enabled {
+    background: #007bff;
+    cursor: pointer;
+}
+
+#submitBtn:hover:enabled {
+    background: #0056b3;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+    background: #f9f9f9;
+    border-top: 2px solid #0044cc;
+}
