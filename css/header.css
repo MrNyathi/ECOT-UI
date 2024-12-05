@@ -114,6 +114,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  margin-bottom: 5px;
 }
 
 .user-avatar img {
@@ -133,4 +134,10 @@ body {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
+}
+
+.aside {
+  /* display: flex;
+  flex-flow: row;
+  gap: 0.5rem; */
 }

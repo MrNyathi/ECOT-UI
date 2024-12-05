@@ -21,13 +21,13 @@ $applicationMode = false;
 
   <main style="width: 90%;">
     <section class="form-section">
-      <div class="progress-bar">
+      <!-- <div class="progress-bar">
         <span>Step 1 - Application Form</span>
         <div class="progress">
           <div class="progress-completed" style="width: 10%"></div>
         </div>
         <span>10% Complete</span>
-      </div>
+      </div> -->
 
 
 
