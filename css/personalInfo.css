@@ -209,6 +209,9 @@ button:hover {
 .save-button:hover {
   background: #5b9bd5;
 }
+.buttons-section {
+  margin-top: 20px;
+}
 
 .buttons-section a {
   text-decoration: none;
