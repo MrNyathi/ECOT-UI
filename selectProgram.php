@@ -1,3 +1,7 @@
+<?php
+$applicationMode = false;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,24 +14,10 @@
     />
     <link rel="icon" type="image/x-icon" href="img/ECOT Logo.png" />
     <link rel="stylesheet" href="css/select.css" />
-  </head>
-  <body>
-    <div class="container">
-      <!-- Header Section -->
-      <header class="header">
-        <div class="logo">
-          <img src="img/ECOT Logo.png" alt="ECOT Logo" />
-          <h1>
-            Eswatini College <br />
-            Of Technology
-          </h1>
-        </div>
-        <div class="welcome">
-          <button class="dashboard-btn">DASHBOARD</button>
-          <p>Welcome Bandile</p>
-          <button class="logout">LOGOUT</button>
-        </div>
-      </header>
+  
+    <?php
+      require_once("templates/header.php");
+    ?>
 
       <!-- Main Content -->
       <main class="content">
@@ -79,7 +69,7 @@
       <!-- Buttons Section -->
       <div class="buttons-section">
         <button class="save-btn">SAVE</button>
-        <a href="About Yourself.html">
+        <a href="personalInfo.php">
           <button class="continue-btn">CONTINUE</button>
         </a>
       </div>
