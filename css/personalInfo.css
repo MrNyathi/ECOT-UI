@@ -110,6 +110,7 @@ header .user-info {
   cursor: pointer;
   border-bottom: 3px solid transparent;
   transition: border-color 0.3s;
+  border-radius: 10px 10px 0 0px !important;
 }
 
 .sub-tab.active {
