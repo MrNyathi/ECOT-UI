@@ -143,10 +143,10 @@ $applicationMode = false;
             </div>
           </div>
 
-          <div class="form-buttons">
-            <button type="button" class="save-button">Save</button>
-            <button type="submit" class="continue-button">Continue</button>
-          </div>
+          <!-- Buttons Section -->
+    <div class="buttons-section">
+      <a href="Results.html">
+          <button class="sign in">Continue</button></a>
         </form>
       </section>
     </main>
