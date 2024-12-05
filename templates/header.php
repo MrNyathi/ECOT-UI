@@ -43,8 +43,10 @@
           <!-- TODO: Make the user avatar -->
 
           <div class="user-avatar">
-            <p>Welcome <em><b>Bandile </b></em></p>
-            <img src="Img/user.png" alt="user">
+            <p>Welcome <em><b>Bandile</b></em></p>
+            <a href="dashboard.php" title="Dashboard">
+              <img src="Img/user.png" alt="user">
+            </a>
             <form action="includes/redirect.php" method="post">
               <button name="logout">Logout</button>
             </form>

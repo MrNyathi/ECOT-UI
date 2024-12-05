@@ -13,7 +13,7 @@ $applicationMode = false;
       rel="stylesheet"
     />
     <link rel="icon" type="image/x-icon" href="img/ECOT Logo.png" />
-    <link rel="stylesheet" href="css/select.css" />
+    <link rel="stylesheet" href="css/selectProgram.css" />
   
     <?php
       require_once("templates/header.php");
@@ -68,6 +68,9 @@ $applicationMode = false;
 
       <!-- Buttons Section -->
       <div class="buttons-section">
+        <a href="dashboard.php">
+          <button>BACK</button>
+        </a>
         <button class="save-btn">SAVE</button>
         <a href="personalInfo.php">
           <button class="continue-btn">CONTINUE</button>

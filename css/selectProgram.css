@@ -101,27 +101,25 @@ body {
 
 /* Buttons Section */
 .buttons-section {
+  width: 85%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 20px 0;
   gap: 20px;
 }
 
-.buttons-section .save-btn,
-.buttons-section .continue-btn {
+.buttons-section button {
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
   border: none;
-}
-
-.buttons-section .save-btn {
   background-color: #6a93d4;
   color: #fff;
 }
 
-.buttons-section .continue-btn {
+.buttons-section .continue-btn,
+.buttons-section .save-btn {
   background-color: #2668c5;
   color: #fff;
 }

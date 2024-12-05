@@ -1,10 +1,10 @@
-* {
-  /* duplicated on many styles */
+/*{
+  /* duplicated on many styles 
   font-family: "Nunito", serif;
   font-optical-sizing: auto;
 }
 
-/* General Styles */
+/* General Styles 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -58,6 +58,7 @@ header .user-info {
   font-size: 14px;
 }
 
+*/
 /* Progress Bar */
 .progress-bar {
   display: flex;
@@ -207,6 +208,10 @@ button:hover {
 
 .save-button:hover {
   background: #5b9bd5;
+}
+
+.buttons-section a {
+  text-decoration: none;
 }
 
 /* Footer */
