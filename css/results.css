@@ -173,3 +173,8 @@ footer {
     color: white;
     font-size: 14px;
 }
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: px;
+  }
