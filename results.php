@@ -17,7 +17,6 @@ $applicationMode = false;
     require_once('templates/header.php');
     ?>
 
-    </div>
 
 
     <section class="form-section">
@@ -459,7 +458,7 @@ $applicationMode = false;
                     <button>BACK</button>
                 </a>
                 <button class="save-btn">SAVE</button>
-                <a href="uploadDocs.html">
+                <a href="uploadDocs.php">
                     <button class="continue-btn">CONTINUE</button>
                 </a>
             </div>
