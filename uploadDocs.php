@@ -57,9 +57,14 @@ $applicationMode = false;
             <p><strong>Note:</strong> If you were not able to upload any required documents as you were filling in the application or if there is an added document that needs to be uploaded, please upload them here.</p>
         </div>
 
-        <div class="actions">
-            <button class="save-btn">Save</button>
-            <button class="continue-btn">Continue</button>
+        <div class="buttons-section">
+            <a href="results.php">
+                <button>BACK</button>
+            </a>
+            <button class="save-btn">SAVE</button>
+            <a href="Declaration.html">
+                <button class="continue-btn">CONTINUE</button>
+            </a>
         </div>
     </main>
 
