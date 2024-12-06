@@ -286,7 +286,7 @@ $applicationMode = false;
           <button>BACK</button>
         </a>
         <button class="save-btn">SAVE</button>
-        <a href="Results.html">
+        <a href="results.php">
           <button class="continue-btn">CONTINUE</button>
         </a>
       </div>

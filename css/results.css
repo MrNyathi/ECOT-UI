@@ -1,180 +1,112 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(90deg, #5b9bd5, #4176a9);
-    color: white;
-    padding: 10px 20px;
-}
-
-header .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-header .logo img {
-    height: 50px;
-    width: 50px;
-}
-
-header .tabs {
-    display: flex;
-    gap: 20px;
-}
-
-header .tab {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 16px;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-bottom: 3px solid transparent;
-    transition: border-color 0.3s;
-}
-
-header .tab.active {
-    font-weight: bold;
-    border-bottom: 3px solid #f1f1f1;
-}
-
-header .user-info {
-    font-size: 14px;
-}
-
-/* Progress Bar */
-.progress-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 0;
-    font-size: 14px;
-}
-
-.progress-bar .progress {
-    flex: 1;
-    height: 8px;
-    background: #e0e0e0;
-    margin: 0 10px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.progress-bar .progress-completed {
-    height: 100%;
-    background: #5b9bd5;
-    transition: width 0.3s;
-}
-
 /* Form Section */
 .form-section {
-    background: white;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* High School Results Table */
 .highschool-form table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
-.highschool-form th, .highschool-form td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
+.highschool-form th,
+.highschool-form td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
 }
 
 .highschool-form th {
-    background-color: #f1f1f1;
-    font-weight: bold;
+  background-color: #f1f1f1;
+  font-weight: bold;
 }
 
 .upload-results {
-    margin-top: 10px;
-    background: #5b9bd5;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+  margin-top: 10px;
+  background: #5b9bd5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 .upload-results:hover {
-    background: #4176a9;
+  background: #4176a9;
 }
 
 /* Note Section */
 .note p {
-    font-size: 14px;
-    color: #666;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-left: 4px solid #5b9bd5;
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #5b9bd5;
 }
 
 /* Buttons */
 .form-buttons {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 button {
-    background: #5b9bd5;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+  background: #5b9bd5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    background: #4176a9;
+  background: #4176a9;
 }
 
 .save-button {
-    background: #6c757d;
+  background: #6c757d;
 }
 
 .save-button:hover {
-    background: #5a6268;
+  background: #5a6268;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #5b9bd5;
-    color: white;
-    font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background: #5b9bd5;
+  color: white;
+  font-size: 14px;
 }
 .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: px;
+}
+
+/* navigate btns */
+.buttons-section {
+  margin-top: 20px;
+}
+
+.buttons-section a {
+  text-decoration: none;
+}
