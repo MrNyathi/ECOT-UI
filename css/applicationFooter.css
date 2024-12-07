@@ -1,0 +1,49 @@
+/* Footer Section */
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+  padding: 15px;
+  background: #f9f9f9;
+  border-top: 2px solid #0044cc;
+}
+
+/* Buttons */
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background: #5b9bd5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: #4176a9;
+}
+
+.save-button {
+  background: #5b9bd5;
+}
+
+.save-button:hover {
+  background: #5b9bd5;
+}
+.buttons-section {
+  margin-top: 20px;
+}
+
+.buttons-section a {
+  text-decoration: none;
+}

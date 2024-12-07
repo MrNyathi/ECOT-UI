@@ -8,8 +8,13 @@
 <link rel="icon" type="image/x-icon" href="img/ECOT Logo.png" />
 
 <!-- stylesheets -->
-<link rel="stylesheet" href="css/footer.css" />
 <link rel="stylesheet" href="css/header.css" />
+
+<?php if (isset($applicationMode))
+  echo '<link rel="stylesheet" href="css/applicationFooter.css" />';
+else
+  echo '<link rel="stylesheet" href="css/footer.css" />';
+?>
 
 </head>
 
@@ -42,7 +47,7 @@
       <?php } else { ?>
         <!-- TODO: Make the user avatar -->
         <div class="aside">
-          <div class="user-avatar">
+          <div class="user-avatar" style="margin: 0 0 15px;">
             <p>Welcome <em><b>Bandile</b></em></p>
             <a href="dashboard.php" title="Dashboard">
               <img src="Img/user.png" alt="user">
@@ -52,9 +57,9 @@
             </form>
           </div>
 
-          <div class="progress" style="width: 100%; border: 1px solid #ccc; border-radius: 5px; position: relative; background-color: #f9f9f9; height: 11px;">
+          <div class="progress" style=" width: 100%; border: 1px solid #ccc; border-radius: 5px; position: relative; background-color: #f9f9f9; height: 11px;">
             <div class="progress-completed" style="width: 10%; height: 100%; background-color: #007bff; border-radius: 5px;"></div>
-            <p style="position: absolute; width: 100%; text-align: center; margin: 3px 0 0 0; line-height: 11px;">Application Completion: 10%</p>
+            <p style="display: none; position: absolute; width: 100%; text-align: center; margin: 3px 0 0 0; line-height: 11px;">Application Completion: 10%</p>
 
           </div>
 

@@ -62,16 +62,16 @@ $applicationMode = false;
                 <button>BACK</button>
             </a>
             <button class="save-btn">SAVE</button>
-            <a href="Declaration.html">
+            <a href="declaration.php">
                 <button class="continue-btn">CONTINUE</button>
             </a>
         </div>
     </main>
 
     <!-- Footer Section -->
-    <footer>
-        <p>All rights reserved to ECOT @2024</p>
-    </footer>
+    <?php
+    require_once('templates/applicationFooter.php');
+    ?>
     </div>
     </body>
 

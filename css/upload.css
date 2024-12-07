@@ -147,13 +147,14 @@ h2 {
   background: #003399;
 }
 
-.note-section {
-  background: #f9f9f9;
-  padding: 15px 20px;
-  border-radius: 5px;
-  font-size: 16px;
-  border: 1px solid #ddd;
-  margin-bottom: 30px;
+/* Note Section */
+.note-section p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #5b9bd5;
 }
 
 .note-section strong {
@@ -166,9 +167,9 @@ h2 {
   gap: 15px;
 }
 
-.save-btn,
+/* .save-btn,
 .continue-btn {
-  background: #0044cc;
+  /* background: #0044cc; 
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -177,10 +178,10 @@ h2 {
   border: none;
   cursor: pointer;
   transition: background 0.3s ease;
-}
+} */
 
 /* Footer Section */
-footer {
+/* footer {
   text-align: center;
   margin-top: 30px;
   font-size: 14px;
@@ -188,7 +189,7 @@ footer {
   padding: 15px;
   background: #f9f9f9;
   border-top: 2px solid #0044cc;
-}
+} */
 
 /* Table Enhancements for Wider Appearance */
 .upload-table th,

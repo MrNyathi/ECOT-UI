@@ -1,11 +1,19 @@
+<?php
+$applicationMode = false;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eswatini College Of Technology</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="css/prevEducation.css">
+    <?php
+    require_once("templates/header.php");
+    ?>
+    <!-- </head>
 <body>
     <header>
         <div class="logo">
@@ -21,7 +29,7 @@
                 <li><a href="#">Welcome Bandile</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
     <main>
         <section class="application-form">
@@ -51,15 +59,15 @@
                     </select>
                     <h4>Foreign qualification should be submitted for evaluation with the Eswatini Qualifications Authority.</h4>
                 </div>
-               
+
                 <div class="form-group">
                     <h2>POST HIGH SCHOOL/INSTITUTIONS ATTENDED:(i.e College, Technikon, University etc)</h2>
                     <label for="PREVIOUS QUALIFICATION">PREVIOUS QUALIFICATION:</label>
                     <select id="previous-qualification" name="previous-qualification">
                         <option value="select">select</option>
-                        
+
                     </select>
-                    </div>
+                </div>
                 <div class="form-group">
                     <label for="institution-name">Name of Institution:</label>
                     <input type="text" id="institution-name" name="institution-name">
@@ -68,7 +76,7 @@
                 <div class="form-group">
                     <label for="high-school-year">Year on which you wrote your High School Exams:</label>
                     <input type="text" id="high-school-year" name="high-school-year">
-                    
+
                 </div>
 
                 <div class="form-group">
@@ -76,12 +84,24 @@
                     <input type="file" id="ovc-proof" name="ovc-proof">
                 </div>
 
-                <div class="form-actions">
+                <!-- <div class="form-actions">
                     <button type="submit" class="save-btn">SAVE</button>
                     <button type="submit" class="continue-btn">CONTINUE</button>
-                </div>
+                </div> -->
             </form>
         </section>
+        <div class="buttons-section">
+            <a href="personalInfo.php">
+                <button>BACK</button>
+            </a>
+            <button class="save-btn">SAVE</button>
+            <a href="results.php">
+                <button class="continue-btn">CONTINUE</button>
+            </a>
+        </div>
+
     </main>
-</body>
+    <?php require_once("templates/applicationFooter.php") ?>
+    </body>
+
 </html>

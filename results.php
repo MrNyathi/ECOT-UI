@@ -448,13 +448,13 @@ $applicationMode = false;
 
             <div class="note">
                 <p>
-                    Please select your best 6 subjects, the first 2 being the two core subjects for your course, followed by 2 other credits. Then lastly any other 2 credits or passes. Please state the syllabus for each subject, grade, and the year written.
+                    <strong>Note:</strong> Please select your best 6 subjects, the first 2 being the two core subjects for your course, followed by 2 other credits. Then lastly any other 2 credits or passes. Please state the syllabus for each subject, grade, and the year written.
                 </p>
             </div>
 
             <!-- TODO: disable save and continue  if form validation is false-->
             <div class="buttons-section">
-                <a href="personalInfo.php">
+                <a href="prevEducation.php">
                     <button>BACK</button>
                 </a>
                 <button class="save-btn">SAVE</button>
@@ -468,9 +468,10 @@ $applicationMode = false;
     <?php
     // require_once("templates/footer.php");
     ?>
-    <footer class="footer">
-        <p>All rights reserved to ECOT @2024</p>
-    </footer>
+
+    <?php
+    require_once('templates/applicationFooter.php');
+    ?>
 
     </body>
 

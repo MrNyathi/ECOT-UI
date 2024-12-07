@@ -219,13 +219,13 @@ button:hover {
 }
 
 /* Footer */
-footer {
+/* footer {
   text-align: center;
   padding: 10px;
   background: #5b9bd5;
   color: white;
   font-size: 14px;
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {

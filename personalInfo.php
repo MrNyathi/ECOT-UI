@@ -286,7 +286,7 @@ $applicationMode = false;
           <button>BACK</button>
         </a>
         <button class="save-btn">SAVE</button>
-        <a href="results.php">
+        <a href="prevEducation.php">
           <button class="continue-btn">CONTINUE</button>
         </a>
       </div>
@@ -294,9 +294,9 @@ $applicationMode = false;
     </section>
   </main>
 
-  <footer class="footer">
-    <p>All rights reserved to ECOT @2024</p>
-  </footer>
+  <?php
+  require_once('templates/applicationFooter.php');
+  ?>
 
   <script src="js/personalInfo.js"></script>
   </body>

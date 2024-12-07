@@ -57,6 +57,9 @@ h2 {
   background-color: #f9f9f9;
   border-left: 4px solid #5b9bd5;
 }
+.note strong {
+  color: #0044cc;
+}
 
 /* Buttons */
 .form-buttons {
@@ -89,13 +92,13 @@ button:hover {
 }
 
 /* Footer */
-footer {
+/* footer {
   text-align: center;
   padding: 10px;
   background: #5b9bd5;
   color: white;
   font-size: 14px;
-}
+} */
 .form-group {
   display: flex;
   flex-direction: column;
