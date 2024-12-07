@@ -131,11 +131,24 @@ h2 {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
-
+/* 
 .terms {
   margin-top: 20px;
+} */
+
+/* Note Section */
+.terms {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #5b9bd5;
 }
 
+.note-section strong {
+  color: #0044cc;
+}
 .terms-text {
   background: #f9f9f9;
   padding: 20px;

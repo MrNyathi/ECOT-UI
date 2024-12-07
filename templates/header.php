@@ -45,6 +45,8 @@ else
           <a href="signup.php" class="sign-in">Apply Now!</a>
         </div>
       <?php } else { ?>
+
+
         <!-- TODO: Make the user avatar -->
         <div class="aside">
           <div class="user-avatar" style="margin: 0 0 15px;">
@@ -68,3 +70,21 @@ else
       <?php } ?>
     </div>
   </header>
+
+
+  <?php if (isset($applicationMode)) { ?>
+    <div class="application-nav">
+
+      <nav class="the-nav">
+        <a href="dashboard.php">Dashboard</a>
+        <a href="selectProgram.php">Select Program</a>
+        <a href="personalInfo.php">Personal Information</a>
+        <a href="prevEducation.php">Previous Education</a>
+        <a href="results.php">Results</a>
+        <a href="uploadDocs.php">Upload Documents</a>
+      </nav>
+    </div>
+
+  <?php
+  }
+  ?>

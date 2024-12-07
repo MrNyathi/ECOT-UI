@@ -440,7 +440,7 @@ $applicationMode = false;
                 </tbody>
             </table>
 
-            <div class="form-group">
+            <div class="form-group" style="background-color: #f1f1f1; padding:5px; border-radius: 5px; width: fit-content;">
                 <label for="passport-photo">Results</label>
                 <input type="file" id="passport-photo" accept="image/*" />
                 <!---- <small>Less than 2MB</small> -->

@@ -25,6 +25,7 @@ body {
   background: #fff;
   width: 100%;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #0044cc;
 }
 .header .wrapper {
   width: 90%;
@@ -141,3 +142,62 @@ body {
   flex-flow: row;
   gap: 0.5rem;
 } */
+/*
+.application-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #ccc;
+}
+
+.application-nav .the-nav {
+  max-width: 85%;
+  display: flex;
+  gap: 2rem;
+}
+
+.application-nav .the-nav a {
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  
+}
+
+*/
+
+.application-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the nav spans full width */
+  height: 50px; /* Set the minimum height */
+  background-color: #ccc; /* Background color */
+  display: flex; /* Flexbox for horizontal alignment */
+  justify-content: space-around; /* Distribute space between links */
+  align-items: center; /* Vertically center the items */
+}
+
+.the-nav {
+  display: flex; /* Use flexbox to align links horizontally */
+  gap: 20px; /* Space between each link */
+}
+
+.the-nav a {
+  color: #1966a8; /* Text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  padding: 10px 15px; /* Padding for better click area */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.the-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+  border-radius: 5px; /* Rounded corners on hover */
+}

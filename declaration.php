@@ -49,13 +49,11 @@ $applicationMode = false;
             </div>
         </section>
 
-        <section class="terms">
+        <section class="terms note">
             <h2>Terms and Conditions</h2>
             <div class="terms-text">
                 <p>I <strong>Bandile Bayanda Manyatsi</strong>, Identity Number <strong>97989099822</strong>, the undersigned, hereby apply/register as a student of the Eswatini College of Technology (ECOT), subject to the following terms and conditions:</p>
-                <ul>
-                    <li>1.1 Comply with the rules and regulations of the Eswatini College of Technology (should my application be successful).</li>
-                </ul>
+                <p>1.1 Comply with the rules and regulations of the Eswatini College of Technology (should my application be successful).</p>
             </div>
             <div class="agree-section">
                 <label>
