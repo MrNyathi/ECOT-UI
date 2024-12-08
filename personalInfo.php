@@ -51,7 +51,6 @@ $applicationMode = false;
                   <label for="title">Title</label>
                   <select id="title">
                     <option selected disabled>Select</option>
-                    <option>Select</option>
                     <option>Mr</option>
                     <option>Ms</option>
                     <option>Dr</option>
@@ -118,7 +117,6 @@ $applicationMode = false;
                   <label for="sponsor">Sponsor</label>
                   <select id="sponsor">
                     <option selected disabled>Select</option>
-                    <option>Select</option>
                     <option>Self</option>
                     <option>Government</option>
                     <option>Private</option>
@@ -148,7 +146,6 @@ $applicationMode = false;
                   <label for="title">Title</label>
                   <select id="title">
                     <option selected disabled>Select</option>
-                    <option>Select</option>
                     <option>Mr</option>
                     <option>Ms</option>
                     <option>Dr</option>
@@ -227,7 +224,7 @@ $applicationMode = false;
             <div class="form-columns">
               <!-- Left Column -->
               <div class="form-column">
-                <h3>Personal Addresses</h3>
+                <h3>Personal Address</h3>
 
                 <div class="form-group">
                   <label for="applicant-country">Country</label>
@@ -249,7 +246,7 @@ $applicationMode = false;
 
               <!-- Right Column -->
               <div class="form-column">
-                <h3>Next Of Kin Addresses</h3>
+                <h3>Next Of Kin Address</h3>
                 <div class="form-group" style="display: flex; flex-flow: nowrap; gap:2px">
                   <input type="checkbox" name="same-postal" id="same-postal" style="max-width: 20px;">
                   <label for="same-postal">Same as my postal.</label>
@@ -268,7 +265,7 @@ $applicationMode = false;
                 </div>
                 <div class="form-group" style="display: flex; flex-flow: nowrap; gap:2px">
                   <input type="checkbox" name="same-physical" id="same-physical" style="max-width: 20px;">
-                  <label for="same-physical">Same as my physical.</label>
+                  <label for="same-physical">Same as my physical Address.</label>
                 </div>
                 <div class="form-group">
                   <label for="residential-area">Residential Area</label>
