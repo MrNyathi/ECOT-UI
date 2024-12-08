@@ -33,16 +33,16 @@ $applicationMode = false;
 
     <main>
         <section class="application-form">
-            <h1>PREVIOUS EDUCATION</h1>
+            <h1>Previous Education</h1>
 
             <form>
                 <div class="form-group1">
                     <label for="applicant-type">You are Applying as:</label>
                     <select id="applicant-type" name="applicant-type">
                         <option value="select">select</option>
-                        <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE O’LEVEL/IGCSE/HIGCSE/SGCSE EQUIVALENT</option>
+                        <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE O'LEVEL/IGCSE/HIGCSE/SGCSE EQUIVALENT</option>
                         <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE S.A. SENIOR CERTIFICATE</option>
-                        <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE ‘A’ LEVEL/EQUIVALENT</option>
+                        <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE A' LEVEL/EQUIVALENT</option>
                         <option value="select">A CANDIDATE WHO HAS A POST HIGH SCHOOL PROFESSIONAL QUALIFICATION</option>
                     </select>
                 </div>
@@ -51,7 +51,7 @@ $applicationMode = false;
                     <label for="academic-qualification">Academic Qualification:</label>
                     <select id="academic-qualification" name="academic-qualification">
                         <option value="select">select</option>
-                        <option value="select">CAMBRIDGE O’LEVEL</option>
+                        <option value="select">CAMBRIDGE O'LEVEL</option>
                         <option value="select">G.C.E. (LONDON)</option>
                         <option value="select">SOUTH AFRICAN SENIOR CERTIFICATE</option>
                         <option value="select">IGCSE/SGCSE</option>
@@ -61,8 +61,8 @@ $applicationMode = false;
                 </div>
 
                 <div class="form-group">
-                    <h2>POST HIGH SCHOOL/INSTITUTIONS ATTENDED:(i.e College, Technikon, University etc)</h2>
-                    <label for="PREVIOUS QUALIFICATION">PREVIOUS QUALIFICATION:</label>
+                    <h1>Post High School/Institutions Attended:(i.e College, Technikon, University etc)</h1>
+                    <label for="PREVIOUS QUALIFICATION">Previous Qualification:</label>
                     <select id="previous-qualification" name="previous-qualification">
                         <option value="select">select</option>
 
