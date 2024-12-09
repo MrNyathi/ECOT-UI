@@ -24,7 +24,7 @@ $applicationMode = false;
     <div class="left-section">
       <h2>SELECT A PROGRAM</h2>
       <select name="program" id="program">
-        <option value="">Select</option>
+      <option selected disabled>Select</option>
         <option value="computer-science">
           1. Diploma in Computer Science
         </option>

@@ -34,6 +34,7 @@ $applicationMode = false;
                 <tbody>
                     <tr>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>ENGLISH AS A FIRST LANGUAGE</option>
                                 <option>ENGLISH AS A SECOND LANGUAGE</option>
                                 <option>ENGLISH LITERATURE</option>
@@ -70,6 +71,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>IGCSE/SGCSE</option>
                                 <option>HIGCSE</option>
                                 <option>SOUTH AFRICAN SENIOR CERTIFICATE</option>
@@ -78,6 +80,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>A*</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -88,6 +91,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>2010</option>
                                 <option>2011</option>
                                 <option>2012</option>
@@ -103,6 +107,7 @@ $applicationMode = false;
                     </tr>
                     <tr>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>ENGLISH AS A FIRST LANGUAGE</option>
                                 <option>ENGLISH AS A SECOND LANGUAGE</option>
                                 <option>ENGLISH LITERATURE</option>
@@ -139,6 +144,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>IGCSE/SGCSE</option>
                                 <option>HIGCSE</option>
                                 <option>SOUTH AFRICAN SENIOR CERTIFICATE</option>
@@ -146,6 +152,7 @@ $applicationMode = false;
                                 <option>CAMBRIDGE O'LEVEL</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>A*</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -155,6 +162,7 @@ $applicationMode = false;
                                 <option>F</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>2010</option>
                                 <option>2011</option>
                                 <option>2012</option>
@@ -170,6 +178,7 @@ $applicationMode = false;
                     </tr>
                     <tr>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>ENGLISH AS A FIRST LANGUAGE</option>
                                 <option>ENGLISH AS A SECOND LANGUAGE</option>
                                 <option>ENGLISH LITERATURE</option>
@@ -206,6 +215,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>IGCSE/SGCSE</option>
                                 <option>HIGCSE</option>
                                 <option>SOUTH AFRICAN SENIOR CERTIFICATE</option>
@@ -213,6 +223,7 @@ $applicationMode = false;
                                 <option>CAMBRIDGE O'LEVEL</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>A*</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -222,6 +233,7 @@ $applicationMode = false;
                                 <option>F</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>2010</option>
                                 <option>2011</option>
                                 <option>2012</option>
@@ -237,7 +249,7 @@ $applicationMode = false;
                     </tr>
                     <tr>
                         <td><select>
-                                <option>ENGLISH AS A FIRST LANGUAGE</option>
+                                <option selected disabled>Select</option>                                <option>ENGLISH AS A FIRST LANGUAGE</option>
                                 <option>ENGLISH AS A SECOND LANGUAGE</option>
                                 <option>ENGLISH LITERATURE</option>
                                 <option>RELIGIOUS EDUCATION</option>
@@ -273,6 +285,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>IGCSE/SGCSE</option>
                                 <option>HIGCSE</option>
                                 <option>SOUTH AFRICAN SENIOR CERTIFICATE</option>
@@ -280,6 +293,7 @@ $applicationMode = false;
                                 <option>CAMBRIDGE O'LEVEL</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>A*</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -289,6 +303,7 @@ $applicationMode = false;
                                 <option>F</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>2010</option>
                                 <option>2011</option>
                                 <option>2012</option>
@@ -304,6 +319,7 @@ $applicationMode = false;
                     </tr>
                     <tr>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>ENGLISH AS A FIRST LANGUAGE</option>
                                 <option>ENGLISH AS A SECOND LANGUAGE</option>
                                 <option>ENGLISH LITERATURE</option>
@@ -340,6 +356,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>IGCSE/SGCSE</option>
                                 <option>HIGCSE</option>
                                 <option>SOUTH AFRICAN SENIOR CERTIFICATE</option>
@@ -347,6 +364,7 @@ $applicationMode = false;
                                 <option>CAMBRIDGE O'LEVEL</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>A*</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -356,6 +374,7 @@ $applicationMode = false;
                                 <option>F</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>2010</option>
                                 <option>2011</option>
                                 <option>2012</option>
@@ -371,6 +390,7 @@ $applicationMode = false;
                     </tr>
                     <tr>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>ENGLISH AS A FIRST LANGUAGE</option>
                                 <option>ENGLISH AS A SECOND LANGUAGE</option>
                                 <option>ENGLISH LITERATURE</option>
@@ -407,6 +427,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>IGCSE/SGCSE</option>
                                 <option>HIGCSE</option>
                                 <option>SOUTH AFRICAN SENIOR CERTIFICATE</option>
@@ -415,6 +436,7 @@ $applicationMode = false;
                             </select></td>
 
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>A*</option>
                                 <option>A</option>
                                 <option>B</option>
@@ -424,6 +446,7 @@ $applicationMode = false;
                                 <option>F</option>
                             </select></td>
                         <td><select>
+                                <option selected disabled>Select</option>
                                 <option>2010</option>
                                 <option>2011</option>
                                 <option>2012</option>

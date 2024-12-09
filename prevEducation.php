@@ -39,7 +39,7 @@ $applicationMode = false;
                 <div class="form-group1">
                     <label for="applicant-type">You are Applying as:</label>
                     <select id="applicant-type" name="applicant-type">
-                        <option value="select">select</option>
+                        <option selected disabled>Select</option>
                         <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE O'LEVEL/IGCSE/HIGCSE/SGCSE EQUIVALENT</option>
                         <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE S.A. SENIOR CERTIFICATE</option>
                         <option value="select">A HIGH SCHOOL LEAVER WHO HAS DONE A' LEVEL/EQUIVALENT</option>
@@ -50,7 +50,7 @@ $applicationMode = false;
                 <div class="form-group1">
                     <label for="academic-qualification">Academic Qualification:</label>
                     <select id="academic-qualification" name="academic-qualification">
-                        <option value="select">select</option>
+                        <option selected disabled>Select</option>
                         <option value="select">CAMBRIDGE O'LEVEL</option>
                         <option value="select">G.C.E. (LONDON)</option>
                         <option value="select">SOUTH AFRICAN SENIOR CERTIFICATE</option>
